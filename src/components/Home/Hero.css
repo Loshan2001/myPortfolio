@@ -1,0 +1,16 @@
+.details {
+    grid-area: details;
+  }
+  .hero {
+    grid-area: hero;
+  }
+  .sidebar {
+    grid-area: sidebar;
+  }
+  .p-header {
+    grid-area: p-header;
+  }
+  .project {
+    grid-area: project;
+  }
+  
