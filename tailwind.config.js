@@ -12,22 +12,8 @@ module.exports = {
         dark:'#2B2B2B',
         black : '18191A'
       }
-    },
-    gridTemplateAreas : {
-      'custom-grid' : ' "details hero sidebar" "details p-header sidebar" "details project sidebar"'
     }
+    
   },
-  plugins: [
-    function({ addUtilities, e, theme }) {
-      const areas = theme('gridTemplateAreas', {});
-      const utilities = Object.keys(areas).map(key => {
-        return {
-          [`.${e(`grid-template-areas-${key}`)}`]: {
-            'grid-template-areas': areas[key],
-          }
-        };
-      });
-      addUtilities(utilities, ['responsive', 'hover']);
-    }
-  ],
+  plugins: [],
 };

@@ -1,8 +1,19 @@
+.wrapper{
+  grid-template-areas:
+  'details intro sidebar'
+  'details p-header sidebar'
+  'details project sidebar'
+  ;
+  grid-template-columns: 4fr 15fr 1fr;
+  grid-template-rows: 5fr 4fr 7.5fr;
+  gap: 30px;
+}
+
 .details {
     grid-area: details;
   }
-  .hero {
-    grid-area: hero;
+  .intro {
+    grid-area: intro;
   }
   .sidebar {
     grid-area: sidebar;
@@ -10,7 +21,20 @@
   .p-header {
     grid-area: p-header;
   }
+  
+  
+  .details,
+  .intro,
+  .p-header,
+  .sidebar,
+  .project{
+    border: 1px solid skyblue;
+  }
+
   .project {
     grid-area: project;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 10px;
   }
-  
