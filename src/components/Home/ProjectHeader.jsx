@@ -5,7 +5,7 @@ function ProjectHeader() {
     <>
       <div className="flex flex-col justify-items-center w-full h-full">
         <h1 className="text-center text-xl uppercase font-semibold tracking-wide py-3	">Showcase of My Work</h1>
-        <p className="text-center text-slate-600 text-base p-1">
+        <p className="text-center dark:text-slate-400 text-slate-600 text-base p-1">
           This section highlights a selection of my projects, reflecting my
           journey as a developer and showcasing my skills in various
           technologies. Each project demonstrates my ability to design, develop,
