@@ -7,19 +7,19 @@ import ProjectHeader from './ProjectHeader'
 import Details from './Details'
 function Hero() {
   return (
-   <div className='wrapper max-w-full min-h-screen grid   bg-light'>
-        <div className='details'><Details/></div>
-        <div className='intro'><Intro/></div>
-        <div className='sidebar'><Sidebar/></div>
-        <div className='p-header'><ProjectHeader/></div>
-        <div className='project'>
+   <div className='wrapper max-w-full min-h-screen grid  bg-light dark:bg-black'>
+        <div className='details  bg-white dark:bg-dark dark:text-white'><Details/></div>
+        <div className='intro  bg-white  dark:bg-dark  dark:text-white'><Intro/></div>
+        <div className='sidebar  bg-white  dark:bg-dark  dark:text-white'><Sidebar/></div>
+        <div className='p-header  dark:bg-dark  dark:text-white'><ProjectHeader/></div>
+        <div className='project  bg-white  dark:bg-dark  dark:text-white'>
           
-          <div className='bg-primary'>1</div>
-          <div className='bg-primary'>2</div>
-          <div className='bg-primary'>3</div>
-          <div className='bg-primary'>4</div>
-          <div className='bg-primary'>5</div>
-          <div className='bg-primary'>6</div>
+          <div className='bg-primary  dark:bg-black  dark:hover:bg-secondary'>1</div>
+          <div className='bg-primary  dark:bg-black  dark:hover:bg-secondary'>2</div>
+          <div className='bg-primary  dark:bg-black  dark:hover:bg-secondary'>3</div>
+          <div className='bg-primary  dark:bg-black  dark:hover:bg-secondary'>4</div>
+          <div className='bg-primary  dark:bg-black  dark:hover:bg-secondary'>5</div>
+          <div className='bg-primary  dark:bg-black  dark:hover:bg-secondary'>6</div>
         </div>
    </div>
   )

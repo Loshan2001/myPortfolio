@@ -23,13 +23,7 @@
   }
   
   
-  .details,
-  .intro,
-  .p-header,
-  .sidebar,
-  .project{
-    border: 1px solid skyblue;
-  }
+  
 
   .project {
     grid-area: project;
