@@ -22,7 +22,7 @@ function Sidebar() {
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className="size-8 m-7"
+        className="size-8 m-7 hover:bg-yellow hover:bg-opacity-30 rounded-full cursor-pointer transition duration-500 ease-in-out"
         onClick={toggleTheme}
       >
         <path
@@ -38,7 +38,7 @@ function Sidebar() {
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className="size-8 m-7"
+        className="size-8 m-7  hover:bg-slate-300 hover:bg-opacity-50 rounded-full cursor-pointer transition duration-500 ease-in-out"
         onClick={toggleTheme}
       >
         <path

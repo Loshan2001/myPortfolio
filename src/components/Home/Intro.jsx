@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@headlessui/react";
 
-import Loshan from "../../assets/loshan.png";
+// import Losh from "../../assets/loshan.png";
 import Losh from "../../assets/losh.png";
 function Intro() {
   return (
@@ -18,7 +18,7 @@ function Intro() {
             contribute to innovative projects. I have strong problem-solving and
             teamwork skills.
           </p>
-          <Button className="flex items-center justify-evenly bg-primary border-3 px-4 py-2 dark:bg-secondary rounded text-lg text-black hover:bg-primary">
+          <Button className="flex items-center justify-evenly bg-primary border-3 px-4 py-2 dark:bg-secondary rounded text-lg text-black hover:bg-primary dark:bg-opacity-80">
             send message
             <svg
               xmlns="http://www.w3.org/2000/svg"
