@@ -1,6 +1,5 @@
 import React from 'react'
 import './Hero.css'
-import Project from './Project'
 import Intro from './Intro'
 import Sidebar from './Sidebar'
 import ProjectHeader from './ProjectHeader'
@@ -11,9 +10,8 @@ function Hero() {
         <div className='details  bg-white dark:bg-dark dark:text-white'><Details/></div>
         <div className='intro  bg-white  dark:bg-dark  dark:text-white'><Intro/></div>
         <div className='sidebar  bg-white  dark:bg-dark  dark:text-white'><Sidebar/></div>
-        <div className='p-header  dark:bg-dark  dark:text-white'><ProjectHeader/></div>
+        <div className='p-header   dark:text-white'><ProjectHeader/></div>
         <div className='project  bg-white  dark:bg-dark  dark:text-white'>
-          
           <div className='bg-light  dark:bg-black  dark:hover:bg-secondary dark:bg-opacity-80'>1</div>
           <div className='bg-light  dark:bg-black  dark:hover:bg-secondary dark:bg-opacity-80'>2</div>
           <div className='bg-light  dark:bg-black  dark:hover:bg-secondary dark:bg-opacity-80'>3</div>

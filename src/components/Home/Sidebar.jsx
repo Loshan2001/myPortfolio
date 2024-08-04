@@ -9,12 +9,6 @@ function Sidebar() {
   };
   return (
     <div>
-      {/* <button
-        className="bg-light p-2 border m-2 hover:bg-white dark:bg-primary dark:hover:bg-secondary"
-        onClick={toggleTheme}
-      >
-        DarkMode
-      </button> */}
       {darkmode ? 
       <svg
         xmlns="http://www.w3.org/2000/svg"
