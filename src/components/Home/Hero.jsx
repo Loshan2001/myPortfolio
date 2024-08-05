@@ -13,7 +13,8 @@ function Hero() {
         <div className='intro  bg-white  dark:bg-dark  dark:text-white'><Intro/></div>
         <div className='sidebar  bg-white  dark:bg-dark  dark:text-white'><Sidebar/></div>
         <div className='p-header   dark:text-white'><ProjectHeader/></div>
-        <div className='project  bg-white  dark:bg-dark  dark:text-white grid grid-cols-3'>
+        <div className='project  dark:text-white grid grid-cols-3'>
+          
            <Project/>
         </div>
    </div>
