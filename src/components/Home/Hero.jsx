@@ -9,12 +9,11 @@ import Project from './Project'
 function Hero() {
   return (
    <div className='wrapper max-w-full min-h-screen grid  bg-light dark:bg-black'>
-        <div className='details  bg-white dark:bg-dark dark:text-white'><Details/></div>
+        <div className='details  bg-white dark:bg-dark dark:text-white grid grid-cols-1  gap-1 '><Details/></div>
         <div className='intro  bg-white  dark:bg-dark  dark:text-white'><Intro/></div>
         <div className='sidebar  bg-white  dark:bg-dark  dark:text-white'><Sidebar/></div>
         <div className='p-header   dark:text-white'><ProjectHeader/></div>
         <div className='project  dark:text-white grid grid-cols-3'>
-          
            <Project/>
         </div>
    </div>
