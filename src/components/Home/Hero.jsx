@@ -4,6 +4,8 @@ import Intro from './Intro'
 import Sidebar from './Sidebar'
 import ProjectHeader from './ProjectHeader'
 import Details from './Details'
+import Project from './Project'
+
 function Hero() {
   return (
    <div className='wrapper max-w-full min-h-screen grid  bg-light dark:bg-black'>
@@ -11,13 +13,8 @@ function Hero() {
         <div className='intro  bg-white  dark:bg-dark  dark:text-white'><Intro/></div>
         <div className='sidebar  bg-white  dark:bg-dark  dark:text-white'><Sidebar/></div>
         <div className='p-header   dark:text-white'><ProjectHeader/></div>
-        <div className='project  bg-white  dark:bg-dark  dark:text-white'>
-          <div className='bg-light  dark:bg-black  dark:hover:bg-secondary dark:bg-opacity-80'>1</div>
-          <div className='bg-light  dark:bg-black  dark:hover:bg-secondary dark:bg-opacity-80'>2</div>
-          <div className='bg-light  dark:bg-black  dark:hover:bg-secondary dark:bg-opacity-80'>3</div>
-          <div className='bg-light  dark:bg-black  dark:hover:bg-secondary dark:bg-opacity-80'>4</div>
-          <div className='bg-light  dark:bg-black  dark:hover:bg-secondary dark:bg-opacity-80'>5</div>
-          <div className='bg-light  dark:bg-black  dark:hover:bg-secondary dark:bg-opacity-80'>6</div>
+        <div className='project  bg-white  dark:bg-dark  dark:text-white grid grid-cols-3'>
+           <Project/>
         </div>
    </div>
   )
