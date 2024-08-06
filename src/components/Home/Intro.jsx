@@ -4,6 +4,9 @@ import { Button } from "@headlessui/react";
 // import Losh from "../../assets/loshan.png";
 import Losh from "../../assets/losh.png";
 function Intro() {
+  const handleHireMeBtn = () =>{
+    window.location.href = "mailto:loshansp2001@gmail.com?subject=Job%20Opportunity&body=I%20am%20interested%20in%20hiring%20you.";
+  }
   return (
     <>
       <div className="flex gap-x-5 ">
@@ -18,8 +21,10 @@ function Intro() {
             contribute to innovative projects. I have strong problem-solving and
             teamwork skills.
           </p>
-          <Button className="flex items-center justify-evenly bg-primary border-3 px-4 py-2 dark:bg-secondary rounded text-lg text-black hover:bg-primary dark:bg-opacity-80">
-            send message
+          <Button className="flex items-center justify-evenly bg-primary border-3 px-4 py-2 dark:bg-secondary rounded text-lg text-black hover:bg-primary dark:bg-opacity-80"
+             onClick={handleHireMeBtn}
+          >
+            HIRE ME    
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -27,6 +32,7 @@ function Intro() {
               strokeWidth={1.5}
               stroke="currentColor"
               className="size-6"
+           
             >
               <path
                 strokeLinecap="round"
