@@ -2,6 +2,12 @@ import React from "react";
 
 import Profile from "./Profile/Profile";
 import Cloud from './Profile/Cloud'
+import Languages from './Profile/Languages'
+import Technology from './Profile/Technologies'
+import FrameWork from './Profile/FrameWorks'
+import Tools from './Profile/Tools'
+import Approach from './Profile/Approaches'
+
 function Details() {
   return (
     <>
@@ -9,28 +15,28 @@ function Details() {
       <Profile/>
       {/* Languages */}
       <div>
-      Languages
-      <hr className="text-slate-300  w-[90%] items-center mx-auto"/>
+      <Languages/>
+       
       </div>
       {/* Technologies */}
       <div>
-      Technologies
-      <hr className="text-slate-300  w-[90%] items-center mx-auto"/>
+      <Technology/>
+      
       </div>
       {/* Frameworks */}
       <div>
-      Frameworks
-      <hr className="text-slate-300  w-[90%] items-center mx-auto"/>
+      <FrameWork/>
+      
       </div>
       {/* Tools */}
       <div>
-      Tools
-      <hr className="text-slate-300  w-[90%] items-center mx-auto"/>
+      <Tools/>
+      
       </div>
       {/* Approaches */}
       <div>
-      Approaches
-      <hr className="text-slate-300  w-[90%] items-center mx-auto"/>
+      <Approach/>
+     
       </div>
       {/* Cloud */}
       <div>

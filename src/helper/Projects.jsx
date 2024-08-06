@@ -5,7 +5,7 @@ export const projects = [
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        className="size-20"
+        className="size-20 text-yellow dark:text-white"
       >
         <path
           fillRule="evenodd"
@@ -25,7 +25,7 @@ export const projects = [
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-         className="size-20"
+         className="size-20 text-yellow dark:text-white"
       >
         <path
           strokeLinecap="round"
@@ -45,7 +45,7 @@ export const projects = [
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-         className="size-20"
+         className="size-20 text-yellow dark:text-white"
       >
         <path
           strokeLinecap="round"
@@ -63,7 +63,7 @@ export const projects = [
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        className="size-20"
+        className="size-20 text-yellow dark:text-white"
       >
         <path
           fillRule="evenodd"
@@ -83,7 +83,7 @@ export const projects = [
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-         className="size-20"
+         className="size-20 text-yellow dark:text-white"
       >
         <path
           strokeLinecap="round"
@@ -103,7 +103,7 @@ export const projects = [
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className="size-20"
+        className="size-20 text-yellow dark:text-white"
       >
         <path
           strokeLinecap="round"
