@@ -32,6 +32,7 @@ function FrameWorks() {
       <hr className="text-slate-300 w-[90%] items-center mx-auto my-4" />
     </div>
    <hr className="text-slate-300  w-[90%] items-center mx-auto"/>
+   
   </>
      </>
   )
