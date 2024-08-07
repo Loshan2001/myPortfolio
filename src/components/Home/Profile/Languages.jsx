@@ -3,9 +3,9 @@ import { useSpring, animated } from 'react-spring';
 
 function Languages() {
   const languages = [
-    { language: 'Java', percentage: 80 },
+    { language: 'Java', percentage: 85 },
     { language: 'JavaScript', percentage: 70 },
-    { language: 'C++', percentage: 40 },
+    { language: 'C++', percentage: 50 },
   ];
 
   return (

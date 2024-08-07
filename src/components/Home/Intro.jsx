@@ -21,7 +21,7 @@ function Intro() {
             contribute to innovative projects. I have strong problem-solving and
             teamwork skills.
           </p>
-          <Button className="flex items-center justify-evenly bg-primary border-3 px-4 py-2 dark:bg-secondary rounded text-lg text-black hover:bg-primary dark:bg-opacity-80"
+          <Button className="flex items-center justify-evenly bg-primary border-3 px-4 py-2 dark:bg-secondary rounded text-lg text-black hover:bg-primary hover:dark:bg-opacity-80"
              onClick={handleHireMeBtn}
           >
             HIRE ME    
