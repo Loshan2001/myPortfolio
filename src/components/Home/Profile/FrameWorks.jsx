@@ -10,7 +10,7 @@ function FrameWorks() {
     <>
    <>
    <div className="p-3">
-      <h3 className="text-xl font-semibold mb-4">Technologies</h3>
+      <h3 className="text-xl font-semibold mb-4">Frameworks</h3>
       {languages.map((lang, index) => {
         const props = useSpring({ width: `${lang.percentage}%`, from: { width: '0%' } });
 
